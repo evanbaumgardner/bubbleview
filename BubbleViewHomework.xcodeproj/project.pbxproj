@@ -21,6 +21,8 @@
 		35AC9ECD1937CE5A004A99FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC9EAF1937CE5A004A99FE /* UIKit.framework */; };
 		35AC9ED51937CE5A004A99FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35AC9ED31937CE5A004A99FE /* InfoPlist.strings */; };
 		35AC9ED71937CE5A004A99FE /* BubbleViewHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC9ED61937CE5A004A99FE /* BubbleViewHomeworkTests.m */; };
+		35AC9EE51937CF1C004A99FE /* EBBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC9EE41937CF1C004A99FE /* EBBubbleView.m */; };
+		35AC9EE71937D148004A99FE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC9EE61937D148004A99FE /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		35AC9ED21937CE5A004A99FE /* BubbleViewHomeworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleViewHomeworkTests-Info.plist"; sourceTree = "<group>"; };
 		35AC9ED41937CE5A004A99FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35AC9ED61937CE5A004A99FE /* BubbleViewHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleViewHomeworkTests.m; sourceTree = "<group>"; };
+		35AC9EE31937CF1C004A99FE /* EBBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBubbleView.h; sourceTree = "<group>"; };
+		35AC9EE41937CF1C004A99FE /* EBBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBubbleView.m; sourceTree = "<group>"; };
+		35AC9EE61937D148004A99FE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AC9EE71937D148004A99FE /* Social.framework in Frameworks */,
 				35AC9EAE1937CE5A004A99FE /* CoreGraphics.framework in Frameworks */,
 				35AC9EB01937CE5A004A99FE /* UIKit.framework in Frameworks */,
 				35AC9EAC1937CE5A004A99FE /* Foundation.framework in Frameworks */,
@@ -82,6 +88,8 @@
 		35AC9E9F1937CE59004A99FE = {
 			isa = PBXGroup;
 			children = (
+				35AC9EE31937CF1C004A99FE /* EBBubbleView.h */,
+				35AC9EE41937CF1C004A99FE /* EBBubbleView.m */,
 				35AC9EB11937CE5A004A99FE /* BubbleViewHomework */,
 				35AC9ED01937CE5A004A99FE /* BubbleViewHomeworkTests */,
 				35AC9EAA1937CE59004A99FE /* Frameworks */,
@@ -101,6 +109,7 @@
 		35AC9EAA1937CE59004A99FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35AC9EE61937D148004A99FE /* Social.framework */,
 				35AC9EAB1937CE59004A99FE /* Foundation.framework */,
 				35AC9EAD1937CE5A004A99FE /* CoreGraphics.framework */,
 				35AC9EAF1937CE5A004A99FE /* UIKit.framework */,
@@ -253,6 +262,7 @@
 				35AC9EC21937CE5A004A99FE /* EBViewController.m in Sources */,
 				35AC9EB81937CE5A004A99FE /* main.m in Sources */,
 				35AC9EBC1937CE5A004A99FE /* EBAppDelegate.m in Sources */,
+				35AC9EE51937CF1C004A99FE /* EBBubbleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
